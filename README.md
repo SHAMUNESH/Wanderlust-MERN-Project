@@ -28,6 +28,6 @@ Key Features
 
 # Contributors
 
-<a href = "https://github.com/SHAMUNESH/Wanderlust-MERN-Project/contributors">
-  <img src = "https://contrib.rocks/image?repo = GitHub_username/repository_name"/>
+<a href="https://github.com/SHAMUNESH/Wanderlust-MERN-Project/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SHAMUNESH/Wanderlust-MERN-Project" />
 </a>

@@ -14,6 +14,7 @@ Key Features
 
 # API Usage
 - We have used Rapid API, with google ratings and map support! 
+- The API which we have used is of travel-adivisor
 - Axios for api fetch and calls
 - CRUD RestAPIs for user filters
 

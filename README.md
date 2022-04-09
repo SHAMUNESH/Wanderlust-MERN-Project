@@ -12,7 +12,7 @@ Key Features
 - Fast Routing
 - Google maps
 
-# API Usage 
+# API Usages
 - We have used Rapid API, with google ratings and map support! 
 - Axios for api fetch and calls
 - CRUD RestAPIs for user filters

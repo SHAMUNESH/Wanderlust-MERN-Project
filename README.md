@@ -1,4 +1,9 @@
 # Wanderlust | One destination for travel lovers
+
+![HTML5](https://img.shields.io/badge/-HTML5-white?style=flat-square&logo=HTML5)
+![React](https://img.shields.io/badge/-Reactjs-white?style=flat-square&logo=React)
+![HTML5](https://img.shields.io/badge/-HTML5-white?style=flat-square&logo=HTML5)
+![HTML5](https://img.shields.io/badge/-HTML5-white?style=flat-square&logo=HTML5)
 This web app is a modern, one spot destination for travellers to look for hotels, restaurants and also famous tourist spots in a single go! <br>
 Key Features
 - Filter using ratings

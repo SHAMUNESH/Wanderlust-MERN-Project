@@ -28,7 +28,6 @@ Key Features
 
 # Contributors
 
-- ![Shamunesh](https://github.com/SHAMUNESH)
-- ![Adarsh Srivastava](https://github.com/theAdarshSrivastava)
-- ![Varun Malani](https://github.com/varunmalani)
-- ![Rushil22](https://github.com/rushil22)
+<a href = "https://github.com/SHAMUNESH/Wanderlust-MERN-Project/contributors">
+  <img src = "https://contrib.rocks/image?repo = SHAMUNESH/Wanderlust-MERN-Project"/>
+</a>

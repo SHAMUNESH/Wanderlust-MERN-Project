@@ -1,4 +1,4 @@
-# Wanderlust | One destination for travel lovers
+# Wanderlust | One destination for all travel lovers
 
 ![MUI](https://img.shields.io/badge/-MUI-white?style=flat-square&logo=MUI)
 ![React](https://img.shields.io/badge/-Reactjs-white?style=flat-square&logo=React)

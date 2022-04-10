@@ -5,12 +5,19 @@
 ![HTML5](https://img.shields.io/badge/-HTML5-white?style=flat-square&logo=HTML5)
 ![NPM](https://img.shields.io/badge/-NPM-white?style=flat-square&logo=NPM)
 
-This web app is a modern, one spot destination for travellers to look for hotels, restaurants and also famous tourist spots in a single go!. This app was built using HTML, CSS, JS, ReactJS <br>
+This web app is a modern, one spot destination for travellers to look for hotels, restaurants and also famous tourist spots in a single go!<br>
 Key Features
 - Filter using ratings
 - Dynamic Rendering
 - Fast Routing
 - Google maps
+
+# Tech Stack
+- ReactJS (Frontend Framework)
+- Material UI (Responsive Design)
+- RapidAPI (Google Reviews)
+- RestAPIs (User Filters)
+- Google Maps
 
 # API Usage
 - We have used Rapid API, with google ratings and map support! 

@@ -1,0 +1,180 @@
+.login {
+    margin-right: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    font-family: "Poppins";
+  }
+  .login img {
+    width: 60%;
+    max-height: 80vh;
+  }
+  .login > div:last-child {
+    text-align: left;
+  }
+  .login > div:first-child {
+    text-align: center;
+  }
+  .login .passwordField{
+    width: 70%;
+  }
+  .login .passwordField input{
+    width: 100%;
+  }
+  .login .passwordField svg:hover{
+    fill: #382acb;
+  }
+  .login input {
+    border: none;
+    display: block;
+    border-bottom: 1.5px solid black;
+    width: 70%;
+    margin: 0.5% 0;
+    padding: 1% 0.5%;
+    caret-color: #382acb;
+    color: #5f6368;
+  }
+  .login input:active,
+  .login input:focus-visible,
+  .login input:active::placeholder,
+  .login input:focus-visible::placeholder {
+    outline: none;
+    border-width: 3px;
+    color: #382acb;
+    border-color: #382acb;
+    font-weight: 500;
+  }
+  .login form {
+    margin: 5% 0 3%;
+  }
+  .login label {
+    margin-top: 3%;
+    font-weight: 500;
+  }
+  .login form button {
+    display: block;
+    background-color: #382acb;
+    width: 70%;
+    padding: 2%;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 5%;
+  }
+  .login a {
+    font-size: 80%;
+    display: block;
+    width: 70%;
+    text-align: right;
+    margin-top: 1%;
+    text-decoration: none;
+    color: #382acb;
+    font-weight: 600;
+  }
+  .login .carBtn{
+      color: #000;
+      border: none;
+      background-color: transparent;
+      color: #382acb;
+      font-weight: 600;
+  }
+  .login .cItem{
+      height: 90vh;
+      padding: 10% 5% 5%;
+  }
+  .cItem:first-child{
+      padding-top: 18%;
+  }
+  .login form > span{
+    width: 70%;
+    margin-top: 5px;
+  }
+  @media (max-width: 900px) {
+    .login {
+      width: 100vw;
+      margin: 0;
+      font-size: 120%;
+    }
+    .login form > span{
+      width: 100%;
+      margin-top: 5px;
+    }
+    .login .passwordField{
+      width: 100%;
+    }
+    .login > div:last-child {
+      padding: 10%;
+      text-align: left;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+    }
+    .login input,
+    .login a {
+      width: 100%;
+    }
+    .login > div:first-child {
+      display: none;
+    }
+    h1 {
+      text-align: center;
+    }
+    .login label {
+      margin-top: 5%;
+    }
+    .login a {
+      font-size: 90%;
+    }
+    .login form button {
+      margin: 10% auto 0;
+    }
+    .login form input {
+      margin-top: 1%;
+    }
+  }
+  @media (max-width: 480px) {
+    .login {
+      font-size: 105%;
+    }
+    .login form button {
+      padding: 4%;
+      width: 100%;
+    }
+    .login a {
+      margin-top: 3%;
+    }
+    .login label {
+      margin-top: 7%;
+    }
+    .cItem > span:last-child{
+        margin-top: 10%;
+        display: block;
+    }
+    .cItem:last-child{
+        padding: 20% 0%;
+    }
+    .cItem:last-child > span:last-child{
+      margin-top: 5%;
+    }
+  }
+  @media (max-width: 360px) {
+      .login >div:last-child {
+        padding: 20% 5% 0;
+      }
+      .login{
+          font-size: 100%;
+      }
+      .login form button {
+        padding: 4%;
+        width: 100%;
+      }
+      .login a {
+        margin-top: 3%;
+      }
+      .login label {
+        margin-top: 7%;
+      }
+    }

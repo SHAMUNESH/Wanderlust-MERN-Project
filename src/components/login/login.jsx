@@ -28,7 +28,7 @@ function Login(props) {
         localStorage.removeItem("userId");
         localStorage.removeItem("authToken");
       } else {
-        window.location.href = "/userDashboard";
+        window.location.href = "/";
       }
     }
   };
@@ -188,7 +188,20 @@ function Login(props) {
                           didClose: () => window.location.reload(),
                         });
                       })
-                      .catch((err) => console.log(err));
+                      .catch((err) =>{
+                        console.log(err.message);
+                        if (
+                          err.message == "Request failed with status code 400"
+                        ) {
+                          Toast.fire({
+                            title: "Email Already Exists",
+                            icon: "error",
+                            timer: 3000,
+                            timerProgressBar: true,
+                            didClose: () => window.location.reload(),
+                          });
+                        }
+                      });
                     console.log(values);
                   }}
                 >

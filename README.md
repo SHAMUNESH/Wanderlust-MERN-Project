@@ -24,6 +24,7 @@ Key Features
 - The API which we have used is of travel-adivisor
 - Axios for api fetch and calls
 - CRUD RestAPIs for user filters
+- Backend: https://github.com/raghav13901/wanderlust-backend
 
 # Dependencies
 - Geolocation

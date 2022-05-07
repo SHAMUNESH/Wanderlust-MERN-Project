@@ -21,7 +21,8 @@
     "react-scripts": "4.0.3",
     "swal": "^0.1.0",
     "sweetalert2": "^11.4.10",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",

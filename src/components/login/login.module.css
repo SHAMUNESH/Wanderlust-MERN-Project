@@ -178,3 +178,11 @@
         margin-top: 7%;
       }
     }
+    .error{
+      color: red;
+      display: block;
+      font-weight: 600;
+      text-align: center; 
+    }
+
+    

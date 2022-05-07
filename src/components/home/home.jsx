@@ -20,20 +20,23 @@ const Home = () => {
         navigator.geolocation.getCurrentPosition(({ coords: {latitude, longitude} }) => {
             setCoordinates({ lat: latitude, lng: longitude});
         })
-    })
+    },[]);
 
     useEffect(() => {
-        const filteredPlaces = places.filter((place) => place.rating > rating);
-        setFilteredPlaces(filteredPlaces);
+        if(places.length != 0){
+            const filteredPlaces = places.map((place) => place.rating > rating);
+            setFilteredPlaces(filteredPlaces);
+        }
     },[rating]);
     
     useEffect(() => {
-        
+        console.log(bounds);
         getPlacesData(type, bounds.sw, bounds.ne)
             .then((data) => {
-                
+                console.log(data);
                 setPlaces(data);
-                setFilteredPlaces([])
+                setFilteredPlaces([]);
+                console.log(places);
             })
     }, [type,coordinates, bounds]);
     return (

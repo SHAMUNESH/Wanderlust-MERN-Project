@@ -3,9 +3,9 @@ import jwt_decode from "jwt-decode";
 import img from "../../assets/undraw_mobile_login_re_9ntv.svg";
 import styles from "./login.module.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-// import LoginSchema from "../../utils/loginSchema";
+import LoginSchema from "../../utils/loginSchema";
 import axios from "axios";
-// import SignUpSchema from "../../utils/signUpSchema";
+import SignUpSchema from "../../utils/signUpSchema";
 import Swal from "sweetalert2";
 // import Navbar from "../navbar/navbar";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
@@ -64,7 +64,7 @@ function Login(props) {
                     email: "",
                     password: "",
                   }}
-                  // validationSchema={LoginSchema}
+                  validationSchema={LoginSchema}
                   onSubmit={async (values) => {
                     await axios
                       .post(
@@ -113,7 +113,7 @@ function Login(props) {
                           name="email"
                           placeholder="Enter your email"
                         />
-                        <span className="error">
+                        <span className={styles.error}>
                           <ErrorMessage name="email"></ErrorMessage>
                         </span>
                         <label htmlFor="password">Password</label>
@@ -142,10 +142,10 @@ function Login(props) {
                             </span>
                           </div>
                         </div>
-                        <span className="error">
+                        <span className={styles.error}>
                           <ErrorMessage name="password"></ErrorMessage>
                         </span>
-                        <a href="/forgot">Forgot your password?</a>
+                        {/* <a href="/forgot">Forgot your password?</a> */}
                         <button type="submit">Login</button>
                       </Form>
                     );
@@ -172,7 +172,7 @@ function Login(props) {
                     email: "",
                     password: "",
                   }}
-                  // validationSchema={SignUpSchema}
+                  validationSchema={SignUpSchema}
                   onSubmit={async (values) => {
                     await axios
                       .post(
@@ -210,7 +210,7 @@ function Login(props) {
                       <Form autoComplete="off">
                         <label htmlFor="username">Name</label>
                         <Field name="username" placeholder="Enter your name" />
-                        <span className="error">
+                        <span className={styles.error}>
                           <ErrorMessage name="username"></ErrorMessage>
                         </span>
                         <label htmlFor="email">Email Id</label>
@@ -219,7 +219,7 @@ function Login(props) {
                           name="email"
                           placeholder="Enter your email"
                         />
-                        <span className="error">
+                        <span className={styles.error}>
                           <ErrorMessage name="email"></ErrorMessage>
                         </span>
                         <label htmlFor="password">Password</label>
@@ -248,7 +248,7 @@ function Login(props) {
                             </span>
                           </div>
                         </div>
-                        <span className="error">
+                        <span className={styles.error}>
                           <ErrorMessage name="password"></ErrorMessage>
                         </span>
                         <button type="submit">Sign Up</button>

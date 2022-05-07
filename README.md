@@ -26,6 +26,11 @@ Key Features
 - CRUD RestAPIs for user filters
 - Backend: https://github.com/raghav13901/wanderlust-backend
 
+# Login/Signup Page
+
+![img1](src/assets/Login.jpeg)
+![img2](src/assets/Signup.jpeg)
+
 # Dependencies
 - Geolocation
 ![pro1](https://user-images.githubusercontent.com/64699355/162478157-ba1d57a5-c6d8-4f75-98dc-218a0c572e5c.jpg)
